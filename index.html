@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desktop Hosting — Empowering Everyone</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0f172a; --surface: #1e293b; --surface2: #334155;
+    --text: #f1f5f9; --muted: #94a3b8; --dim: #64748b;
+    --accent: #3b82f6; --green: #22c55e; --gold: #f59e0b; --red: #ef4444;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.6; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .hero { text-align: center; padding: 60px 20px 24px; max-width: 800px; margin: 0 auto; }
+  .hero h1 { font-size: 2.8rem; font-weight: 800; letter-spacing: -0.02em; }
+  .hero h1 span { color: var(--gold); }
+  .hero .tagline { font-size: 1.2rem; color: var(--muted); margin: 8px 0; }
+  .hero .sub { font-size: 0.9rem; color: var(--dim); }
+
+  .book { text-align: center; margin: 24px auto; }
+  .book img { width: 180px; border-radius: 6px; border: 2px solid var(--surface2); }
+  .book .caption { font-size: 0.8rem; color: var(--dim); margin-top: 8px; }
+
+  .slides { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+  .slide { background: var(--surface); border: 1px solid var(--surface2); border-radius: 12px; margin-bottom: 24px; overflow: hidden; }
+  .slide img { width: 100%; display: block; }
+  .slide .caption { padding: 14px 20px; }
+  .slide .caption h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 4px; }
+  .slide .caption p { font-size: 0.85rem; color: var(--muted); }
+  .slide .num { display: inline-block; background: var(--accent); color: #fff; font-size: 0.7rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-right: 8px; }
+
+  .cta { text-align: center; padding: 40px 20px; }
+  .cta h2 { font-size: 1.5rem; margin-bottom: 12px; }
+  .cta-buttons { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  .cta-btn { display: inline-block; padding: 12px 24px; border-radius: 8px; font-size: 0.95rem; font-weight: 600; }
+  .cta-btn.primary { background: var(--accent); color: #fff; }
+  .cta-btn.primary:hover { background: #2563eb; text-decoration: none; }
+  .cta-btn.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--surface2); }
+  .cta-btn.secondary:hover { border-color: var(--accent); text-decoration: none; }
+
+  .footer { text-align: center; padding: 40px 20px; border-top: 1px solid var(--surface2); color: var(--dim); font-size: 0.85rem; margin-top: 32px; }
+  .footer-links { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 10px; }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 2rem; }
+    .cta-buttons { flex-direction: column; align-items: center; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>Desktop <span>Hosting</span></h1>
+  <p class="tagline">Empowering Everyone</p>
+  <p class="sub">Your business. Your hardware. Your data. Your customers. Since 2002.</p>
+</div>
+
+<div class="book">
+  <img src="images/desktop-hosting-cover.jpg" alt="Desktop Hosting — A Developer's Guide to Unattended Communications, by Bill James, Wiley 2002">
+  <div class="caption">Wiley, 2002 — Bill James</div>
+</div>
+
+<div class="slides">
+
+  <div class="slide">
+    <img src="images/1_BeTrusted_Answer.jpg" alt="Become known and trusted">
+    <div class="caption">
+      <h3><span class="num">1</span> Become Known and Trusted</h3>
+      <p>Change your communications from "Leave a message" to "Here's your answer." Desktop Hosting moves your business from the outer ring to the inner circle — known and trusted.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/2_Problem.jpeg" alt="Supply islands break trust">
+    <div class="caption">
+      <h3><span class="num">2</span> The Problem: Supply Islands Break Trust</h3>
+      <p>Regardless of how good each island is — Customer, Dealer, Distributor, Source — disconnected systems break trust. Every handoff is a chance to lose the customer.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/3_Tools_documentation.jpg" alt="Tools, software and documentation">
+    <div class="caption">
+      <h3><span class="num">3</span> Tools, Software, and Documentation</h3>
+      <p>WebClerk is the open source commerce system. Free. The Desktop Hosting book (Wiley, 2002) documented the architecture. The software delivers it.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/4_Comparison.jpg" alt="Be always available, always trustable">
+    <div class="caption">
+      <h3><span class="num">4</span> From "Leave a Message" to "Here's Your Answer"</h3>
+      <p>Left: constrained by mutual availability, paper-based, slow. Right: available 24x7, dynamic data, transactions flow directly into the vendor's system. One business system for physical and virtual sales.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/5_Supply_Chain.jpg" alt="Desktop Hosting builds trust">
+    <div class="caption">
+      <h3><span class="num">5</span> Desktop Hosting Builds Trust</h3>
+      <p>WebClerk or any compliant ERP/CRM connects Customer, Dealer, Distributor, and Source. Orders flow. Purchase orders confirm. Central resources and data updates support every node. The supply chain becomes a trust chain.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/6_Transactions_Flow.jpg" alt="Transactions flow from customer to vendor">
+    <div class="caption">
+      <h3><span class="num">6</span> Delivery: Here's Your Answer</h3>
+      <p>Quote becomes Order. Order creates PO. PO creates Sales Order. Transactions flow from the customer directly into the vendor's Sales Order system. No re-keying. No delays.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/7_Catalogs_Pricing_Update_Automatically.jpg" alt="Catalogs and pricing update automatically">
+    <div class="caption">
+      <h3><span class="num">7</span> Tools: Catalogs and Pricing Update Automatically</h3>
+      <p>Secure account keys. Maps for exchanging data. Transfers via JSON. From a manufacturer's site, transactions flow directly to customer quotes. No manual catalog updates.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/8_InventoryVisibleOnWeb.jpg" alt="Inventory visible on the web">
+    <div class="caption">
+      <h3><span class="num">8</span> Your Inventory — Visible on the Web</h3>
+      <p>From manufacturer catalogs to customer-facing quotes, the data flows through. Your inventory is no longer invisible. Customers find what you have, at your price, from your store.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="cta">
+  <h2>Start hosting from your desk</h2>
+  <div class="cta-buttons">
+    <a href="https://webserving.com" class="cta-btn primary">Search Local Inventory</a>
+    <a href="https://github.com/JPods/WebClerk" class="cta-btn secondary">Get WebClerk (Free)</a>
+    <a href="https://empoweringeveryone.com" class="cta-btn secondary">The Vision</a>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Desktop Hosting — originated by Bill James (Wiley, 2002). Now open source.</p>
+  <div class="footer-links">
+    <a href="https://webserving.com">WebServing.com</a>
+    <a href="https://webclerk.com">WebClerk.com</a>
+    <a href="https://empoweringeveryone.com">EmpoweringEveryone.com</a>
+    <a href="https://jpods.com">JPods.com</a>
+    <a href="https://dividedsovereignty.com">Divided Sovereignty</a>
+  </div>
+</div>
+
+</body>
+</html>
